@@ -1,0 +1,20 @@
+.logo img {
+  height: 240px; /* Increase the height */
+  width: auto;
+  display: block; /* Ensure proper rendering */
+}
+
+.header {
+  background-color: #ffffff; /* Ensure a clear background */
+  margin: 0;
+}
+
+.container {
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .logo img {
+    height: 50px; /* Adjust for smaller screens */
+  }
+}
